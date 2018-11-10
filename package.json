@@ -1,0 +1,25 @@
+{
+  "name": "curso-de-webpack",
+  "version": "1.0.0",
+  "description": "curso de webpack in platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesdelacruz/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "moisesdelacruz.dev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moisesdelacruz/webpack/issues"
+  },
+  "homepage": "https://github.com/moisesdelacruz/webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.25.1"
+  }
+}
