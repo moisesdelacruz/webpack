@@ -15,7 +15,8 @@
     "build:babel": "webpack --config ./babel-loader/webpack.config.js --mode none",
     "build:images": "webpack --config ./url-loader-images/webpack.config.js --mode none",
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js --mode none",
-    "build:video": "webpack --config ./file-loader-video/webpack.config.js --mode none"
+    "build:video": "webpack --config ./file-loader-video/webpack.config.js --mode none",
+    "build:json": "webpack --config ./url-loader-json/webpack.config.js --mode none"
   },
   "repository": {
     "type": "git",
