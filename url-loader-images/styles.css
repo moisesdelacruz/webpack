@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 24px;
+  flex-direction: column;
+  background-image: url('./platzi.png');
+  background-size: cover;
+  background-position-y: -5rem;
+  color: white;
+}
