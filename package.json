@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack index.js --mode none",
-    "build:local": "webpack --mode none"
+    "build:local": "webpack --mode none",
+    "build:external": "webpack --config ./external/webpack.config.js --mode none"
   },
   "repository": {
     "type": "git",
