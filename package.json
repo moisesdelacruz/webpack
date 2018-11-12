@@ -18,7 +18,8 @@
     "build:video": "webpack --config ./file-loader-video/webpack.config.js --mode none",
     "build:react": "webpack --config ./react/webpack.config.js --mode none",
     "build:sass": "webpack --config ./sass-loader/webpack.config.js --mode none",
-    "build:stylus": "webpack --config ./stylus-loader/webpack.config.js --mode none"
+    "build:stylus": "webpack --config ./stylus-loader/webpack.config.js --mode none",
+    "build:less": "webpack --config ./less-loader/webpack.config.js --mode none"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.4.4",
     "nib": "^1.1.2",
     "node-sass": "^4.10.0",
